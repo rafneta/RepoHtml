@@ -1,0 +1,80 @@
+.def {	
+    border-style:solid;
+    border-width:2px;
+    /*-webkit-border-radius:15px;*/
+    border-radius: 0.5em;
+    border-color:rgba(0,57,166,1);/**  #366272;#CD853F;/**rgba(112, 156, 169, 0.66);*/
+    /*background: #366272;rgba(54, 98, 114, 0.9);/*#366272;*/
+	/*border-top-left-radius:10%;*/
+	color:black;
+	font-size: 0.6em;
+	/*box-shadow: 10px 10px 10px #2178a3;*/
+	/*overflow:scroll;*/
+	padding: 0.5% 0.5% 0.5% 2%;
+	box-sizing: border-box;
+	width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0.1%;
+    margin-top:0.1%; 
+    font-size: 1.0em;
+	line-height: 1.6;
+	font-weight: 300;
+  /*background:rgba(0,57,166,0.1);/*1(0.40000000596046448, 0.7607843279838562, 0.64705884456634521)*/
+}
+
+
+/* Texto grande y centrado verticalmente */
+.reveal .slides section .quote-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;       /* ocupa el centro de la diapositiva */
+  text-align: center;
+  font-size: 2.4em;
+}
+
+/* Autor alineado a la derecha y abajo */
+.reveal .slides section .quote-author {
+  text-align: right;
+  font-size: 1.2em;
+  font-style: italic;
+  margin-top: 1em;
+  color: #ccc;
+}
+
+/*
+.reveal .slides  {
+  background: linear-gradient(to bottom, #eaebf4, #e8f7f9) !important;
+}
+*/
+
+.reveal {
+  background: linear-gradient(to bottom, #eaebf4, #e8f7f9) !important;
+}
+
+/* Fondo de cada slide */
+.reveal .slides section {
+  background: transparent !important;  /* transparente, para que se vea el global */
+}
+
+/*
+.reveal .slides section:has(h1) {
+  font-size: 85%;   /* reduce fuente de toda la diapositiva */
+}
+*/
+
+.reveal .slides section h1 {
+  font-size: 1.8em !important;   /* valor más pequeño, ajusta al gusto */
+  line-height: 1.2;              /* opcional, mejora el espaciado */
+}
+
+.reveal .slides section h2 {
+  font-size: 1.5em !important;   /* títulos ## */
+  line-height: 1.2;
+}
+
+.reveal .slides section h3 {
+  font-size: 1.2em !important;   /* títulos ### */
+  line-height: 1.2;
+}
